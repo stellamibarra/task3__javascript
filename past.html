@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/style/style.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/Logo_Amazing_Events.png" />
+  <title>Amazing</title>
+</head>
+
+<body>
+  <header class="header-container d-flex justify-content-between">
+    <a class="navbar-brand m-5" href="#">
+      <img src="./assets/images/Logo_Amazing_Events.png" alt="..." height="36" />
+    </a>
+
+    <nav class="navbar navbar-expand-lg m-3">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="./upcoming.html">Upcoming Events</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Past Events</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="./stats.html">Stats</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <nav class="d-flex justify-content-between m-4">
+      <a class="h1 text-primary text-decoration-none mx-5" href="./upcoming.html">&laquo</a>
+      <h1>Past Events</h1>
+      <a class="h1 text-primary text-decoration-none mx-5" href="./contact.html">&raquo</a>
+    </nav>
+
+    <div class="container categories d-flex justify-content-between h-25">
+      <label>
+        Search
+        <input type="text" id="finder">
+      </label>
+
+      <div id="checkboxCategory">
+
+      </div>
+    </div>
+
+    <div class="container events d-flex bcontent justify-content-center">
+      <div id="card-past">
+
+      </div>
+
+    </div>
+  </main>
+  <footer class="social-net d-flex justify-content-between">
+    <ul class="nav justify-content ms-5">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img class="w-50" src="./assets/images/instagram_108043.png" alt="" /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img class="w-50" src="./assets/images/facebook_108044.png" alt="" /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img class="w-50" src="./assets/images/whatsapp_social_media_icon_127369.png"
+            alt="" /></a>
+      </li>
+    </ul>
+    <h2 class="me-5">Cohort</h2>
+  </footer>
+  <script src="./assets/data/data.js"></script>
+  <script src="./assets/js/pastEvents.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

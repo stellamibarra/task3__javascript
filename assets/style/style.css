@@ -1,0 +1,89 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --bg-color-header-footer: rgb(185, 243, 228);
+  --bg-color-card: rgb(234, 143, 234);
+  --bg-color_nav: rgba(250, 201, 87, 0.322);
+  --bg-color-table: rgb(185, 243, 228);
+  --bg-color-form: rgb(234, 143, 234);
+  --bg-color-body: rgb(246, 230, 194);
+  --bg-color-categories: rgb(185, 243, 228);
+}
+.container {
+}
+
+.event__card {
+  width: 43.75rem;
+  height: 15.625rem;
+  background-color: var(--bg-color-card);
+}
+.card-img-top {
+}
+.card {
+}
+.form-contact {
+  background-color: var(--bg-color-form);
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 23rem;
+}
+.form-contact__item {
+  margin-top: 1rem;
+}
+
+.table-responsive {
+  margin: 5rem auto;
+  background-color: var(--bg-color-table);
+}
+footer,
+header,
+.navbar {
+  background-color: var(--bg-color-header-footer);
+}
+footer {
+  margin-top: 2rem;
+}
+nav {
+  background-color: var(--bg-color_nav);
+}
+.categories {
+  background-color: var(--bg-color-categories);
+}
+
+body {
+  background-color: var(--bg-color-body);
+}
+
+/* Desktop First i.e Larger to Smaller Devices */
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  ul {
+    width: 25%;
+  }
+
+  body > footer > ul {
+    /* flex-direction: row !important;
+    flex-wrap: nowrap !important; */
+  }
+  body > footer > ul > li {
+    /* background-color: bisque; */
+  }
+  body > footer > ul > li > a > img {
+   
+  }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
