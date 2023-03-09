@@ -10,18 +10,15 @@
   --bg-color-body: rgb(246, 230, 194);
   --bg-color-categories: rgb(185, 243, 228);
 }
-.container {
-}
+
 
 .event__card {
   width: 43.75rem;
   height: 15.625rem;
   background-color: var(--bg-color-card);
 }
-.card-img-top {
-}
-.card {
-}
+
+
 .form-contact {
   background-color: var(--bg-color-form);
   padding: 2rem;
@@ -72,18 +69,7 @@ body {
   ul {
     width: 25%;
   }
-
-  body > footer > ul {
-    /* flex-direction: row !important;
-    flex-wrap: nowrap !important; */
-  }
-  body > footer > ul > li {
-    /* background-color: bisque; */
-  }
-  body > footer > ul > li > a > img {
-   
-  }
 }
-/* X-Small devices (portrait phones, less than 576px) */
+ 
 @media (max-width: 575.98px) {
 }
